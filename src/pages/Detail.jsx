@@ -75,7 +75,7 @@ const Detail = () => {
       .then((data) => {
         if (!data.err) {
           if (data.message === "have not been logged in yet") {
-            navigate("/");
+            navigate("/login");
           } else if (data.result) {
             setRooms(data.result);
             const checkboxArr = [];
@@ -116,7 +116,7 @@ const Detail = () => {
       .then((data) => {
         if (!data.err) {
           if (data.message === "have not been logged in yet") {
-            navigate("/");
+            navigate("/login");
           } else if (data.result) {
             setRooms(data.result);
             const checkboxArr = [];
