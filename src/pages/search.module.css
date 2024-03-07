@@ -1,0 +1,44 @@
+/*None*/
+@media screen and (max-width: 575.98px) {
+  .img {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+/*sm*/
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+  .img {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+/*md*/
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  .img {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+/*lg*/
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .img {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+/*xl*/
+@media screen and (min-width: 1200px) and (max-width: 1399.98px) {
+  .img {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+/*xxl*/
+@media screen and (min-width: 1400px) {
+  .img {
+    width: 30%;
+  }
+  .info {
+    width: 67%;
+  }
+}

@@ -1,0 +1,29 @@
+/*None*/
+@media screen and (max-width: 575.98px) {
+  nav {
+    font-size: 0.8rem;
+  }
+}
+/*sm*/
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+  nav {
+    font-size: 0.7rem;
+  }
+}
+
+.navLinkActive {
+  text-decoration: none;
+  color: white;
+  margin-right: 2rem;
+  border: solid white 0.08rem;
+  padding: 0.25rem 0.5rem 0.5rem 0.5rem;
+  border-radius: 1rem;
+}
+.navLinkNotActive {
+  text-decoration: none;
+  color: white;
+  margin-right: 2rem;
+}
+.icon {
+  margin-right: 0.5rem;
+}
