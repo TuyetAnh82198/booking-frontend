@@ -17,7 +17,6 @@ const TopHotels = () => {
       .then((response) => response.json())
       .then((data) => {
         setHotels(data.result);
-        // console.log(data);
       })
       .catch((err) => console.log(err));
   }, []);
